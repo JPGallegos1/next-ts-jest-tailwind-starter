@@ -5,7 +5,7 @@ type LayoutProps = {
 };
 
 const Layout: React.FunctionComponent<LayoutProps> = ({
-  title = 'Adoptar',
+  title = 'Next & TS & Tailwind',
   children
 }) => {
   return (
@@ -15,7 +15,7 @@ const Layout: React.FunctionComponent<LayoutProps> = ({
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <div>{children}</div>
+      <main>{children}</main>
     </>
   );
 };

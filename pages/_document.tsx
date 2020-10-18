@@ -6,15 +6,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <meta charSet="utf-8" />
-
-          <link
-            href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
-            rel="stylesheet"
-          />
-
-          {/* Favicon
-          <link rel="icon" href="https://rocketseat.com.br/favicon.ico" /> */}
+          <link rel="icon" href="https://#/favicon.ico" />
         </Head>
         <body>
           <Main />
