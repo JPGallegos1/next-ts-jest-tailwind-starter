@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 
 const Home: NextPage = () => {
   return (
-    <Layout title="Home | Adoptar">
+    <Layout title="Home">
       <section className="flex flex-col items-center w-full">
         <h1 className="text-4xl leading-tight tracking-wide">
           Starter pack that includes:
